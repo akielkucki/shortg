@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="description" content="Andrew Tate URL Shortener - Shorten and share your long URLs with ease.">
+    <meta name="keywords" content="Andrew Tate, URL Shortener, Short URLs, Link Shortener">
+    <meta name="author" content="Mr Producer">
+    <meta property="og:title" content="Andrew Tate URL Shortener">
+    <meta property="og:description" content="Shorten and share your long URLs with ease using the Andrew Tate URL Shortener.">
+    <meta property="og:image" content="g.png">
+    <meta property="og:url" content="https://shortg.net">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Andrew Tate URL Shortener">
+    <meta name="twitter:description" content="Shorten and share your long URLs with ease using the Andrew Tate URL Shortener.">
+    <meta name="twitter:image" content="your_image_url_here">
+    <title>Andrew Tate URL Shortener</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,html {
+            margin: 0;
+            overflow: hidden;
+        }
+        #video-container {
+            position: relative;
+            width: 100%;
+        }
+
+        #resizable-video {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    
+    <body>
+        <div id="video-container">
+            <video src="y2mate.is - Andrew Tate Mr. Producer Emergency Meeting song -mN6vBzQfCr4-480pp-1691520375.mp4" width="100%" >
+                <source src="your_video_url_here.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    
+        <script>
+            const videoContainer = document.getElementById('video-container');
+            const videoElement = document.getElementById('resizable-video');
+    
+            function resizeVideo() {
+                const containerWidth = videoContainer.clientWidth;
+                const originalAspectRatio = videoElement.videoWidth / videoElement.videoHeight;
+    
+                // Calculate new height to maintain the original aspect ratio
+                const newHeight = containerWidth / originalAspectRatio;
+    
+                videoElement.style.height = `${newHeight}px`;
+            }
+    
+            // Initial resize and attach the event listener
+            resizeVideo();
+            window.addEventListener('resize', resizeVideo);
+        </script>
+    <script>
+    
+        var video = document.querySelector("video");
+        
+        document.body.onload = () => {
+            video.load();
+            video.play();
+        }
+    </script>
+</body>
+</html>
