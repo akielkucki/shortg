@@ -1,11 +1,12 @@
 
+
+const videoContainer = document.getElementById('video-container');
+const videoElement = document.getElementById('resizable-video');
 var audio = document.getElementById("audio");
 document.body.addEventListener("mousemove", function () {
     audio.play()
+    videoElement.play();
 })
-const videoContainer = document.getElementById('video-container');
-const videoElement = document.getElementById('resizable-video');
-
 function resizeVideo() {
     const containerWidth = videoContainer.clientWidth;
     const containerHeight = videoContainer.clientHeight;
